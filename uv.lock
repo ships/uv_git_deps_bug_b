@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "uv-git-deps-bug-a"
 version = "0.1.0"
-source = { git = "https://github.com/ships/uv_git_deps_bug_a#7a2e45facba1b4680fa62d847ac5bea761e24269" }
+source = { git = "https://github.com/ships/uv_git_deps_bug_a?branch=main#7a2e45facba1b4680fa62d847ac5bea761e24269" }
 
 [[package]]
 name = "uv-git-deps-bug-b"
@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "uv-git-deps-bug-a", git = "https://github.com/ships/uv_git_deps_bug_a" }]
+requires-dist = [{ name = "uv-git-deps-bug-a", git = "https://github.com/ships/uv_git_deps_bug_a?branch=main" }]
