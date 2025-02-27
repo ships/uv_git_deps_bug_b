@@ -1,12 +1,17 @@
 [project]
 name = "uv-git-deps-bug-b"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
+authors = [
+    {name = "eve n.u.",email = "eve@saferdata.io"}
+]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "uv-git-deps-bug-a",
-]
 
-[tool.uv.sources]
-uv-git-deps-bug-a = { git = "https://github.com/ships/uv_git_deps_bug_a", branch = "main" }
+[tool.poetry.dependencies]
+uv-git-deps-bug-a = { git = "https://github.com/ships/uv_git_deps_bug_a", branch = "main"}
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
